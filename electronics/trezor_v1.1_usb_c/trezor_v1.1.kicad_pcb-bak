@@ -1136,7 +1136,7 @@
       (net 1 GND))
   )
 
-  (module Connector_USB:USB_C_Receptacle_GCT_USB4085 (layer Top) (tedit 5BCCCD93) (tstamp 5F087D57)
+  (module Connector_USB:USB_C_Receptacle_GCT_USB4085 (layer Top) (tedit 5F0BE0C8) (tstamp 5F087D57)
     (at 130.683 102.108 270)
     (descr "USB 2.0 Type C Receptacle, https://gct.co/Files/Drawings/USB4085.pdf")
     (tags "USB Type-C Receptacle Through-hole Right angle")
@@ -1209,9 +1209,9 @@
     (pad A1 thru_hole circle (at 0 0 270) (size 0.7 0.7) (drill 0.4) (layers *.Cu *.Mask)
       (net 1 GND))
     (model ${KISYS3DMOD}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4085.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (offset (xyz 2.9718 -3.9878 -0.1016))
+      (scale (xyz 0.39 0.39 0.39))
+      (rotate (xyz -90 0 0))
     )
   )
 
